@@ -1,0 +1,19 @@
+
+start psexec \\IS-M430M27-19 -c -v -d -s -i ../utorrent.exe /NOINSTALL /DIRECTORY "C:\Program Files (x86)\Steam\Steamapps\common\" \\IS-M440M27-21\gamenight\CSGOFOREALZ.torrent
+start psexec \\IS-M430M27-20 -c -v -d -s -i ../utorrent.exe /NOINSTALL /DIRECTORY "C:\Program Files (x86)\Steam\Steamapps\common\" \\IS-M440M27-21\gamenight\CSGOFOREALZ.torrent
+start psexec \\IS-M430M27-21 -c -v -d -s -i ../utorrent.exe /NOINSTALL /DIRECTORY "C:\Program Files (x86)\Steam\Steamapps\common\" \\IS-M440M27-21\gamenight\CSGOFOREALZ.torrent
+start psexec \\IS-M430M27-22 -c -v -d -s -i ../utorrent.exe /NOINSTALL /DIRECTORY "C:\Program Files (x86)\Steam\Steamapps\common\" \\IS-M440M27-21\gamenight\CSGOFOREALZ.torrent
+start psexec \\IS-M430M27-23 -c -v -d -s -i ../utorrent.exe /NOINSTALL /DIRECTORY "C:\Program Files (x86)\Steam\Steamapps\common\" \\IS-M440M27-21\gamenight\CSGOFOREALZ.torrent
+start psexec \\IS-M430M27-24 -c -v -d -s -i ../utorrent.exe /NOINSTALL /DIRECTORY "C:\Program Files (x86)\Steam\Steamapps\common\" \\IS-M440M27-21\gamenight\CSGOFOREALZ.torrent
+start psexec \\IS-M430M27-25 -c -v -d -s -i ../utorrent.exe /NOINSTALL /DIRECTORY "C:\Program Files (x86)\Steam\Steamapps\common\" \\IS-M440M27-21\gamenight\CSGOFOREALZ.torrent
+start psexec \\IS-M430M27-26 -c -v -d -s -i ../utorrent.exe /NOINSTALL /DIRECTORY "C:\Program Files (x86)\Steam\Steamapps\common\" \\IS-M440M27-21\gamenight\CSGOFOREALZ.torrent
+start psexec \\IS-M430M27-27 -c -v -d -s -i ../utorrent.exe /NOINSTALL /DIRECTORY "C:\Program Files (x86)\Steam\Steamapps\common\" \\IS-M440M27-21\gamenight\CSGOFOREALZ.torrent
+start psexec \\IS-M430M27-28 -c -v -d -s -i ../utorrent.exe /NOINSTALL /DIRECTORY "C:\Program Files (x86)\Steam\Steamapps\common\" \\IS-M440M27-21\gamenight\CSGOFOREALZ.torrent
+start psexec \\IS-M430M27-29 -c -v -d -s -i ../utorrent.exe /NOINSTALL /DIRECTORY "C:\Program Files (x86)\Steam\Steamapps\common\" \\IS-M440M27-21\gamenight\CSGOFOREALZ.torrent
+start psexec \\IS-M430M27-30 -c -v -d -s -i ../utorrent.exe /NOINSTALL /DIRECTORY "C:\Program Files (x86)\Steam\Steamapps\common\" \\IS-M440M27-21\gamenight\CSGOFOREALZ.torrent
+start psexec \\IS-M430M27-31 -c -v -d -s -i ../utorrent.exe /NOINSTALL /DIRECTORY "C:\Program Files (x86)\Steam\Steamapps\common\" \\IS-M440M27-21\gamenight\CSGOFOREALZ.torrent
+start psexec \\IS-M430M27-32 -c -v -d -s -i ../utorrent.exe /NOINSTALL /DIRECTORY "C:\Program Files (x86)\Steam\Steamapps\common\" \\IS-M440M27-21\gamenight\CSGOFOREALZ.torrent
+start psexec \\IS-M430M27-33 -c -v -d -s -i ../utorrent.exe /NOINSTALL /DIRECTORY "C:\Program Files (x86)\Steam\Steamapps\common\" \\IS-M440M27-21\gamenight\CSGOFOREALZ.torrent
+start psexec \\IS-M430M27-34 -c -v -d -s -i ../utorrent.exe /NOINSTALL /DIRECTORY "C:\Program Files (x86)\Steam\Steamapps\common\" \\IS-M440M27-21\gamenight\CSGOFOREALZ.torrent
+start psexec \\IS-M430M27-35 -c -v -d -s -i ../utorrent.exe /NOINSTALL /DIRECTORY "C:\Program Files (x86)\Steam\Steamapps\common\" \\IS-M440M27-21\gamenight\CSGOFOREALZ.torrent
+start psexec \\IS-M430M27-36 -c -v -d -s -i ../utorrent.exe /NOINSTALL /DIRECTORY "C:\Program Files (x86)\Steam\Steamapps\common\" \\IS-M440M27-21\gamenight\CSGOFOREALZ.torrent
