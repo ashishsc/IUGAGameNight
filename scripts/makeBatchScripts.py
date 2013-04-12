@@ -1,0 +1,2 @@
+def win():
+	print 'hello'
