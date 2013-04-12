@@ -22,3 +22,7 @@ This repo contains all of the scripts neccessary to setup game night in MGH 430/
 
 ## Notes for improvements in the future:
 * Write a real bat script that launches separate shells instead of having a bunch of hacky start pseexec.. files
+* OR Heavily modify make.py to generate all of the batch scripts for us.(parameterize and loop) by reading from a file or just taking arguments
+* Change it so that the make.py can take a list of computers to modify as an argument (from a file)
+* Add param to make.py to make for which room (MGH-440 OR MGH 430 OR IPLC OR CUSTOM)
+* make.py should automatically generate all required .bat files for the system
