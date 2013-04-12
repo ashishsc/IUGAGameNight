@@ -12,8 +12,12 @@ This repo contains all of the scripts neccessary to setup game night in MGH 430/
 * Web distribution php script is used to assign tournament usernames/passes per IP
 * TODO: EVAN MAKE SECTION HERE
 
-## Instructions:
+##  Usage Instructions:
 * Set up tracker and load seed from host computer,
 * Restart all computers using restartAll.bat for a clean slate
 * Run installSteam.bat
 * Run unzipSteamGames.bat (should put the torrented dota2 and csgo in the right place)
+
+
+## Notes for improvements in the future:
+* Write a real bat script that launches separate shells instead of having a bunch of hacky start pseexec.. files
