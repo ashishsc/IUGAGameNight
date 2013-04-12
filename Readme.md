@@ -16,6 +16,7 @@ This repo contains all of the scripts neccessary to setup game night in MGH 430/
 * Set up tracker and load seed from host computer,
 * Restart all computers using restartAll.bat for a clean slate
 * Run installSteam.bat
+* Run torrentGames.bat to torrent the games to all of the computers
 * Run unzipSteamGames.bat (should put the torrented dota2 and csgo in the right place)
 
 
