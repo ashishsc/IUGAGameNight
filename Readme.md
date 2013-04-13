@@ -8,6 +8,8 @@ This repo contains all of the scripts neccessary to setup game night in MGH 430/
 * The reason that the scripts are not parameterized using a list of computers is so that all of the computers can be restarted in parallel rather than in series.
 * The tracker was set up on the IUGA server, this tracker MUST be private(should only whitelist certain torrents given the hashes)
 * TODO: ROSS FILL IN, MAKE SECTION HERE
+** In order to add trackers to the white list, cd to /etc/opentracker/ and add hashes to white.list
+** Reset the tracker by sudo reload opentracker (must be in the path)
 * Web distribution php script is used to assign tournament usernames/passes per IP
 * TODO: EVAN MAKE SECTION HERE
 * Josh created a simple python script to make the batch files more easily (makeBatchScripts.py). All it does is print out the lines of the script for each individual computer in MGH 430 (This will need to change for each batch script that you create)
@@ -19,6 +21,10 @@ This repo contains all of the scripts neccessary to setup game night in MGH 430/
 * Run torrentGames.bat to torrent the games to all of the computers
 * Run unzipSteamGames.bat (should put the torrented dota2 and csgo in the right place)
 
+
+## TORRENTING INSTRUCTIONS
+* Folders must be shared, both the folder where the torrent is and the target of the torrent file must be shared as well for the seed to be able to work
+* 
 
 ## Notes for improvements in the future:
 * Write a real bat script that launches separate shells instead of having a bunch of hacky start pseexec.. files
