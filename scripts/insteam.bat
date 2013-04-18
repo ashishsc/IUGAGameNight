@@ -1,9 +1,9 @@
-:: Ashish Chandwani - IUGA - Srping 2013
+:: Ashish Chandwani - IUGA - Spring 2013
 :: This file is used to install steam in a given computer lab
 :: insteam room_num computer_num steam_installer_location
 :: Sample run:
 :: start psexec \\IS-M430M27-02 -c -v -d -s -i msiexec /i  \\IS-M430M27-21\gamenight\PsTools\SteamInstall.msi /q
-:: REQUIRES psexec
+:: REQUIRES psexec, SteamInstall.msi
 :: Please make sure computers are restarted beforehand
 :: instloc cannot be a network location
 
@@ -13,6 +13,8 @@
 set argC=0
 for %%x in (%*) do Set /A argC+=1
 IF NOT "%argC%"=="3" GOTO ERROR
+
+set INSTALLER=SteamInstall.msi
 
 :: Assemble
 set PREFIX=\\IS-M
@@ -26,14 +28,14 @@ echo installing to %computer%
 echo from %instloc%
 
 :: quietly install
-start psexec %computer% -c -v -d -s -i msiexec /i  %instloc%\SteamInstall.msi /q
+start psexec %computer% -c -v -d -s -i msiexec /i  %instloc%\%INSTALLER% /q
 GOTO END
 
 :ERROR
 echo %0:ERROR bad params!
 
 :USAGE
-echo usage: insteam room_num computer_num steam_installer_location
+echo usage: %0 room_num computer_num steam_installer_location
 echo to install steam
 
 :END
