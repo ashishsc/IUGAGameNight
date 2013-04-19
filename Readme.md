@@ -21,15 +21,16 @@ This repo contains all of the scripts neccessary to setup game night in MGH 430/
 * Run torrentGames.bat to torrent the games to all of the computers
 * Run unzipSteamGames.bat (should put the torrented dota2 and csgo in the right place)
 
+## Sharing: 
+* Folder where the scripts lie must be shared via windows smb
+** Right-click->share with->specific people-> Everyone
+** When specifying the directory of the installer on the main computer, must use UNC notation (\\IS-M44027-01\Users\...)
 
 ## TORRENTING INSTRUCTIONS
 * Folders must be shared, both the folder where the torrent is and the target of the torrent file must be shared as well for the seed to be able to work
 * 
 
 ## Notes for improvements in the future:
-* Write a real bat script that launches separate shells instead of having a bunch of hacky start pseexec.. files
-* OR Heavily modify make.py to generate all of the batch scripts for us.(parameterize and loop) by reading from a file or just taking arguments
-* Change it so that the make.py can take a list of computers to modify as an argument (from a file)
 * Add param to make.py to make for which room (MGH-440 OR MGH 430 OR IPLC OR CUSTOM)
 * make.py should automatically generate all required .bat files for the system
 * distro web page should limit to ips inside mgh
