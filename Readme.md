@@ -34,3 +34,4 @@ This repo contains all of the scripts neccessary to setup game night in MGH 430/
 * Add param to make.py to make for which room (MGH-440 OR MGH 430 OR IPLC OR CUSTOM)
 * make.py should automatically generate all required .bat files for the system
 * distro web page should limit to ips inside mgh
+* Just for fun: http://answers.yahoo.com/question/index?qid=20100106091741AA0NtKn
